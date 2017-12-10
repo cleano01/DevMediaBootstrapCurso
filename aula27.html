@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <!-- Define a viewport-->
+        <title>Curso Bootstrap3 DevMedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        
+        <!--Adicionar CSS do Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"
+              media="all"/>
+        
+       <!-- css personalizado-->
+        <link href="css/estilo.css" rel="stylesheet" media="all"/>
+        
+        
+    </head>
+<body>
+     
+    
+    <div class="container">
+        <div class="row">
+            <div class="row-xs-12">
+                
+                
+                
+            <!-- com o data-interval="100" podemos mudar o tempode exebiçao da imagem -->
+
+            <div id="carousel01" class="carousel slide" data-ride="carousel">
+                    
+                  <!-- Indicators -->
+                <ol class="carousel-indicators">
+                        <li data-target="#carousel01" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel01" data-slide-to="1"></li>
+                        <li data-target="#carousel01" data-slide-to="2"></li>
+                        
+                </ol>
+                    
+                    
+                    <div class="carousel-inner">
+                        
+                        <div class="item active">
+                            <img src="imgs/slide/tipo01.jpg" alt="Los Angeles">
+                            
+                            <div class="carousel-caption">
+                                <h3>Titulo da imagem</h3>
+                                <p>Texto relativo a imagem</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="item">
+                            <img src="imgs/slide/tipo02.jpg" alt="Chicago">
+                        </div>
+
+                        <div class="item">
+                            <img src="imgs/slide/tipo03.jpg" alt="New York">
+                        </div>
+                    </div>
+                
+                    <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
+                    
+                        <span class="glyphicon glyphicon-chervon-left "></span>
+                    
+                    </a>
+                
+                    <a class="right carousel-control" href="#carousel01" role="button" data-slide="prev">
+                    
+                        <span class="glyphicon glyphicon-chervon-right "></span>
+                    
+                    </a>
+                    
+            </div>
+                    
+                    
+                
+                    <!--<div class="carousel-inner">
+                        
+                        <div class="item active">
+                            
+                            <img src="imgs/slide/image01.png" alt="Imagem de gohan criança 01"/>
+                            
+                        </div>
+                        
+                        <div class="item">
+                            
+                            <img src="imgs/slide/image02.png" alt="Imagem de gohan criança 02"/>
+                            
+                        </div>
+                        
+                        <div class="item">
+                            
+                            <img src="imgs/slide/image03.png" alt="Imagem de gohan criança 03"/>
+                            
+                        </div>
+                        
+                        <div class="item">
+                            
+                            <img src="imgs/slide/image04.png" alt="Imagem de gohan criança 04"/>
+                            
+                        </div>
+                        
+                    </div>
+                
+                
+                </div> -->
+                                       
+                    
+                                      
+            </div>
+        </div>
+    </div>
+   
+
+            
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+                                
+    </body>
+          
+</html>
